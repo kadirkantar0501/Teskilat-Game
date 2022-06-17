@@ -7,7 +7,7 @@ public class Keypad : Interactable
     [SerializeField]
     private GameObject door;
     private bool doorOpen;
-
+    
     protected override void Interact()
     {
         doorOpen = !doorOpen;
