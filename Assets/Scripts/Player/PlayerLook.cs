@@ -13,6 +13,9 @@ public class PlayerLook : MonoBehaviour
 
     public void ProcessLook(Vector2 input) {
 
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
         float mouseX = input.x;
         float mouseY = input.y;
 

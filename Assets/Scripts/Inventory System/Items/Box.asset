@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9932d1c427d484aa95279d304b3150, type: 3}
+  m_Name: Box
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7759196850473906397, guid: 175f055262285394ca866306c2bee66b, type: 3}
+  type: 2
+  desc: Ancient Box

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7c191854e9eb7d48ad653b51bffadc2, type: 3}
+  m_Name: Red Pills
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 9064267372212207533, guid: 4ca5158897d6af04d967a0bd394f93fe, type: 3}
+  type: 0
+  desc: Red Pills or Blue Pills
+  restoreHealthValue: 10

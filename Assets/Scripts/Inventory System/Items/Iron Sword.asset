@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 077f775735381c5448ea81e5ccdf5470, type: 3}
+  m_Name: Iron Sword
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 8382318295939945674, guid: 7d1009c5dd81a7e42a662d3b08f66171, type: 3}
+  type: 1
+  desc: 'Basic Sword
+
+'
+  atkBonus: 10
+  defBonus: 0

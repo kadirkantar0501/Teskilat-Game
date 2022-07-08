@@ -8,10 +8,11 @@ public class InputManager : MonoBehaviour
     public PlayerInput.OnFootActions onFoot;
     private PlayerMotor motor;
     private PlayerLook look;
-
+    
     
     private void Awake() {
         look = GetComponent<PlayerLook>();
+        
         playerInput = new PlayerInput();
         onFoot = playerInput.OnFoot;
         motor = GetComponent<PlayerMotor>();
@@ -28,8 +29,12 @@ public class InputManager : MonoBehaviour
 
     }
 
+
     private void LateUpdate() {
+        
         look.ProcessLook(onFoot.Look.ReadValue<Vector2>());
+        
+        
     }
 
     private void OnEnable() {
